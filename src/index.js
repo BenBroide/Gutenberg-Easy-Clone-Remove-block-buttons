@@ -20,12 +20,13 @@ const ConditionalButton = compose(
 			selectedBlock: wp.data.select( 'core/block-editor' ).getSelectedBlock
 		}
 	} ),
-	ifCondition( function( props ) {
-		return (
-			props.selectedBlock &&
-			props.selectedBlock.name === 'core/paragraph'
-		);
-	} )
+	// ifCondition( function( props ) {
+	// 	console.log(props.selectedBlock.name)
+	// 	return (
+	// 		props.selectedBlock &&
+	// 		props.selectedBlock.name === 'core/paragraph'
+	// 	);
+	// } )
 )( MyCustomButton );
 document.addEventListener("DOMContentLoaded", function(event){
 	console.log('Yo')
