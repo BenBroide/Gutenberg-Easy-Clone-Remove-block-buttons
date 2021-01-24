@@ -1,4 +1,4 @@
-## Easy Clone/Remove block buttons
+## Gutenberg Easy Clone/Remove block buttons
 
 This plugin adds visible buttons in Gutenberg block editor block controls in order to keep deleting and duplicating blocks simple.
 
