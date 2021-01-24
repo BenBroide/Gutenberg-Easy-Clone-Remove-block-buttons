@@ -1,14 +1,6 @@
 <?php
 /**
  * Plugin Name:     Custom Remove Duplicate Buttons
- * Description:     Example block written with ESNext standard and JSX support – build step required.
- * Version:         0.1.0
- * Author:          The WordPress Contributors
- * License:         GPL-2.0-or-later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     custom-remove-duplicate-buttons
- *
- * @package         create-block
  */
 
 /**
@@ -35,15 +27,6 @@ function create_block_custom_remove_duplicate_buttons_block_init() {
 		$script_asset['version']
 	);
 	wp_enqueue_script('block-custom-remove-duplicate-buttons-block-editor');
-//	wp_set_script_translations( 'create-block-custom-remove-duplicate-buttons-block-editor', 'custom-remove-duplicate-buttons' );
 
-//	register_block_type(
-//		'create-block/custom-remove-duplicate-buttons',
-//		array(
-//			'editor_script' => 'create-block-custom-remove-duplicate-buttons-block-editor',
-//			'editor_style'  => 'create-block-custom-remove-duplicate-buttons-block-editor',
-//			'style'         => 'create-block-custom-remove-duplicate-buttons-block',
-//		)
-//	);
 }
 add_action( 'admin_init', 'create_block_custom_remove_duplicate_buttons_block_init' );
