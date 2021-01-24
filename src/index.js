@@ -32,7 +32,7 @@ const CustomButtonsToolbar = () => {
 	return (
 		<BlockControls>
 			<ToolbarGroup>
-				<div style={{border: '4px black solid'}}>
+				<div className={`customgutbuttons`}>
 					<CloneButton/>
 					<DeleteButton/>
 				</div>
