@@ -32,9 +32,10 @@ const CustomButtonsToolbar = () => {
 	return (
 		<BlockControls>
 			<ToolbarGroup>
-
-				<CloneButton/>
-				<DeleteButton/>
+				<div style={{border: '4px black solid'}}>
+					<CloneButton/>
+					<DeleteButton/>
+				</div>
 			</ToolbarGroup>
 		</BlockControls>
 	);
