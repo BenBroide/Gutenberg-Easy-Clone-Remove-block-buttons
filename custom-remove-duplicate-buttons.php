@@ -3,12 +3,6 @@
  * Plugin Name: Gutenberg Easy Clone/Remove block buttons
  */
 
-/**
- * Registers all block assets so that they can be enqueued through the block editor
- * in the corresponding context.
- *
- * @see https://developer.wordpress.org/block-editor/tutorials/block-tutorial/applying-styles-with-stylesheets/
- */
 function create_block_custom_remove_duplicate_buttons_block_init() {
 	$dir = __DIR__;
 
