@@ -23,4 +23,4 @@ function create_block_custom_remove_duplicate_buttons_block_init() {
 	wp_enqueue_script('block-custom-remove-duplicate-buttons-block-editor');
 
 }
-add_action( 'admin_init', 'create_block_custom_remove_duplicate_buttons_block_init' );
+add_action( 'enqueue_block_editor_assets', 'create_block_custom_remove_duplicate_buttons_block_init' );
