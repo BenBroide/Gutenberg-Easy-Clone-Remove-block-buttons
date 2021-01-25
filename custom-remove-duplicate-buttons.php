@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Custom Remove Duplicate Buttons
+ * Plugin Name: Gutenberg Easy Clone/Remove block buttons
  */
 
 /**
